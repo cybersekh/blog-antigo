@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -14,4 +15,23 @@ body {
 #minha_foto {
     width: 200px;
     border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 14px;
+    color: blue;
+    line-height: 15px;
+}
+
+main {
+    display: inline-block;
+    width: 500px;
+}
+
+aside {
+    display: inline-block;
+    width: 400px;
 }
