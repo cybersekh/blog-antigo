@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Ubuntu';
+  font-family: Ubuntu, sans-serif;
 }
 
 body {
@@ -10,152 +10,144 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
-	padding: 20px;
-	background-color: #5c9ead;
-	width: 100%;
-	/* text-align: center; */
-
+  padding: 20px;
+  background-color: rgb(92, 158, 173);
+  width: 100%;
 }
 
 a {
-	text-decoration: none;
-	color: #EEEEEE;
+  text-decoration: none;
+  color: rgb(238, 238, 238);
 }
 
 .header {
-	display: inline-block;
-	width: 400px;
-	/* background-color: red; */
-	margin-left: 200px;
-	font-family: 'Ubuntu';
-	font-size: 30px;
-	color: #326273;
-	text-shadow: 1px 1px #FFFFFF;
-	
+  display: inline-block;
+  width: 400px;
+  margin-left: 200px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 30px;
+  color: rgb(50, 98, 115);
+  text-shadow: 1px 1px white;
 }
 
 nav {
-	display: inline-block;
-	width: 400px;
-	margin-left: 100px;
+  display: inline-block;
+  width: 400px;
+  margin-left: 100px;
+}
+
+ul {
+  list-style-image: url('circle.png');
 }
 
 header ul {
-	display: inline-block;
+  display: inline-block;
 }
 
 header li {
-	display: inline-block;
-	padding: 12px 20px;
-	background-color: #326273;
-	color: #EEEEEE;
-	border-radius: 8%;
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: rgb(50, 98, 115);
+  color: rgb(238, 238, 238);
+  border-radius: 8%;
 }
 
 li:hover {
-	background-color: #EEEEEE;
-	color: #5c9ead;
+  background-color: rgb(238, 238, 238);
+  color: rgb(92, 158, 173);
 }
 
 #minha_foto {
   width: 50%;
   border-radius: 10%;
   margin: 4% 25%;
-  border: 4px solid #326273;
+  border: 4px solid rgb(50, 98, 115);
 }
 
 p {
   font-size: 14px;
-  color: #000000;
+  color: black;
   line-height: 15px;
 }
 
 main {
-	margin-top: 10%;
-	margin-left: 100px;
+  margin-top: 10%;
+  margin-left: 100px;
   display: inline-block;
   width: 50%;
-	height: 600px;
-	background-color: #EEEEEE;
+  height: 600px;
+  background-color: rgb(238, 238, 238);
 }
 
 aside {
-	position: absolute;
+  position: absolute;
   display: inline-block;
   width: 16%;
-	height: 600px;
-	background-color: #5C9EAD;
-	margin-top: 185px;
+  height: 600px;
+  background-color: rgb(92, 158, 173);
+  margin-top: 185px;
 }
 
 h2 {
-	font-size: 25px;
-	color: #326273;
-	text-align: center;
-	padding: 10px;
+  font-size: 25px;
+  color: rgb(50, 98, 115);
+  text-align: center;
+  padding: 10px;
 }
 
 .lado-esquerdo {
-	width: 50%;
-	text-align: justify;
-	/* background-color: red; */
-	margin: 2% 25%;
+  width: 50%;
+  text-align: justify;
+  margin: 2% 25%;
 }
 
 #rodape {
-	text-align: center;
-	background-color: #326273;
-	margin-left: 100px;
-	width: 66%;
-	padding: 10px 0px;
-	color: #FFFFFF;
+  text-align: center;
+  background-color: rgb(50, 98, 115);
+  margin-left: 100px;
+  width: 66%;
+  padding: 10px;
+  color: black;
 }
 
 aside p {
-	text-align: justify;
-	font-size: 14px;
-	padding: 10% 10%;
-	margin: 0% 10%;
+  text-align: justify;
+  font-size: 14px;
+  padding: 10%;
+  margin: 0% 10%;
 }
 
-#licoes_aprendidas h2{
-	font-size: 25px;
-	margin-left: -35%;
+#licoes_aprendidas h2 {
+  font-size: 25px;
+  margin-left: -35%;
 }
 
-#licoes_a_aprender h2{
-	font-size: 25px;
-	margin-left: -35%;
+#licoes_a_aprender h2 {
+  font-size: 25px;
+  margin-left: -35%;
 }
 
 #licoes_aprendidas {
-	display: inline-block;
-	width: 300px;
-	/* background-color: red; */
-	margin-left: 18%;
+  display: inline-block;
+  width: 300px;
+  margin-left: 18%;
 }
 
 #licoes_a_aprender {
-	display: inline-block;
-	width: 300px;
-	/* background-color: blue; */
-
+  display: inline-block;
+  width: 300px;
 }
 
 h3 {
-	margin-top: 3%;
-	margin-left: 42%;
+  margin-top: 3%;
+  margin-left: 42%;
 }
 
 table {
-	margin: 1% 44%;
-	background-color: #FFFFFF;
-}
-
-ul {
-	list-style-image: url(circle.png);
+  margin: 1% 44%;
+  background-color: white;
 }
 
 ol {
-	list-style-image: url(correct.png);
+  list-style-image: url('correct.png');
 }
