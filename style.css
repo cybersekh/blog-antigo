@@ -8,11 +8,29 @@ body {
 }
 
 #cabecalho {
-  top: 0;
   position: fixed;
+  display: flex;
+  justify-content: center;
   padding: 20px;
   background-color: rgb(92, 158, 173);
+  width: calc(100vw - 40px);
+}
+
+#cabecalho_content {
+  display: flex;
+  align-items: center;
   width: 100%;
+  max-width: 1000px;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 a {
@@ -22,18 +40,10 @@ a {
 
 .header {
   display: inline-block;
-  width: 400px;
-  margin-left: 200px;
   font-family: Ubuntu, sans-serif;
   font-size: 30px;
   color: rgb(50, 98, 115);
   text-shadow: 1px 1px white;
-}
-
-nav {
-  display: inline-block;
-  width: 400px;
-  margin-left: 100px;
 }
 
 ul {
@@ -58,9 +68,9 @@ li:hover {
 }
 
 #minha_foto {
-  width: 50%;
+  max-width: 120px;
   border-radius: 10%;
-  margin: 4% 25%;
+  margin: 0 50%;
   border: 4px solid rgb(50, 98, 115);
 }
 
@@ -71,21 +81,27 @@ p {
 }
 
 main {
-  margin-top: 10%;
-  margin-left: 100px;
-  display: inline-block;
-  width: 50%;
-  height: 600px;
+  display: flex;
+  width: 100vw;
+  max-width: 1000px;
   background-color: rgb(238, 238, 238);
 }
 
 aside {
-  position: absolute;
-  display: inline-block;
-  width: 16%;
-  height: 600px;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
   background-color: rgb(92, 158, 173);
-  margin-top: 185px;
+  gap: 16px;
+  padding: 30px;
+}
+
+article {
+  padding: 20px;
+}
+
+article p {
+  padding: 0 80px;
 }
 
 h2 {
@@ -95,47 +111,27 @@ h2 {
   padding: 10px;
 }
 
-.lado-esquerdo {
-  width: 50%;
-  text-align: justify;
-  margin: 2% 25%;
-}
-
 #rodape {
   text-align: center;
   background-color: rgb(50, 98, 115);
-  margin-left: 100px;
-  width: 66%;
-  padding: 10px;
+  padding: 10px 0;
   color: black;
+  width: 100%;
+  max-width: 1000px;
 }
 
 aside p {
   text-align: justify;
   font-size: 14px;
-  padding: 10%;
-  margin: 0% 10%;
+  margin: 0% 20%;
 }
 
 #licoes_aprendidas h2 {
   font-size: 25px;
-  margin-left: -35%;
 }
 
 #licoes_a_aprender h2 {
   font-size: 25px;
-  margin-left: -35%;
-}
-
-#licoes_aprendidas {
-  display: inline-block;
-  width: 300px;
-  margin-left: 18%;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-  width: 300px;
 }
 
 h3 {
@@ -150,4 +146,22 @@ table {
 
 ol {
   list-style-image: url('correct.png');
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#licoes {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
